@@ -31,11 +31,11 @@ async def alive(event):
                                   caption=DEADLY,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Superior_Bots"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/Superior_Support")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/the_professor_network"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/about_ajeet")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/ITZ-ZAID/Zaid-Vc-Player")
+        Button.url("• ᴏᴡɴᴇʀ •", "https://t.me/papa_bol_sakteho")
         ]
         ]
         )
@@ -74,7 +74,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🎉 🇵 🇴 🇳 🇬 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
+        await event.edit(f"🎉  𝐀𝐉𝐄𝐄𝐓 𓆩𝗫𓆪 𝐑𝐎𝐁𝐎𝐓        🇵 🇴 🇳 🇬 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
         
         
 
